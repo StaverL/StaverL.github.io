@@ -1,0 +1,71 @@
+:root {
+	--olive_green: #547451;
+	--brown_grey: #605844;
+	--silver_ivory: #CBCABC;
+	--grey: #737A64;
+	--dark_olive_green: #3E4431;
+	--dark_text: #232A21;
+	--text_with_opacity: rgba(151,181,142,0.8);
+	--dusty_rose: #D09398;
+	--sunset_pink: #A35A65;
+}
+
+body {
+	background-color: var(--dark_olive_green);
+	color: var(--silver_ivory);
+	font-size: 18pt;
+	font-variant: small-caps;
+	text-align: center;
+}
+
+p.date {
+	letter-spacing: 2px;
+	font-family: 'Prata', serif;
+	font-size: 10pt;
+}
+
+p.save_the_date {
+	margin-top: 15%;
+	letter-spacing: 2px;
+	font-family: 'Balthazar', serif;
+	font-size: 10pt;
+}
+
+p.names {
+	letter-spacing: 10px;
+	font-family: 'Prata', serif;
+	font-size: 18pt;
+}
+
+p.place {
+	letter-spacing: 2px;
+	font-family: 'Balthazar', serif;
+	font-size: 10pt;
+}
+
+#outer_box, #inner_box {
+	border-style: solid;
+	border-width: .03px;
+	border-color: var(--silver_ivory);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#outer_box {	
+	margin: 15px;
+}
+
+#inner_box {
+	margin: 18px;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	color: var(--silver_ivory);
+	background-color: var(--silver_ivory);
+	width: 2%;
+}

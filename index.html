@@ -1,1 +1,30 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<script src="CircleType-master/dist/circletype.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Balthazar|Prata" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+	<title>12-20-19</title>
+</head>
+<body onload="renderDemo()">
+
+	<div id="outer_box"></div>
+	<div id="inner_box">
+
+<p class="save_the_date" id="curve1">SAVE THE DATE</p>
+<p class="names">TOBIAS &amp; LAURA</p>
+<p class="date">20 DEC 2019</p>
+<p><hr></p>
+<p class="place">HEIDELBERG</p>
+
+</div>
+
+<script>
+function renderDemo() {
+	new CircleType(document.getElementById('curve1')).radius(150);
+}
+</script>
+
+</body>
+</html>
