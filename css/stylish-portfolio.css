@@ -60,7 +60,7 @@ h2.section-heading {
 
 @media (max-width: 992px) {
   h2.section-heading {
-    font-size: 30px;
+    font-size: 22px;
   }
 }
 
@@ -270,6 +270,7 @@ section#ID_RSVP :-ms-input-placeholder {
   font-size: 11pt;
   letter-spacing: 1px;
   font-weight: 600;
+  padding: 5px;
 }
 
 #ID_WHATTODO .container-fluid .portfolio-box .portfolio-box-caption .project-name {
